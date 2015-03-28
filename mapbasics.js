@@ -13,7 +13,7 @@ function init () {
         zoom: 9
     });
 	myMap.setType('yandex#publicMap');
-	ymaps.geoXml.load('https://maps.yandex.ru/export/usermaps/93jfWjoXws37exPmKH-OFIuj3IQduHal/').then(onGeoXmlLoad);
+	ymaps.geoXml.load('https://raw.githubusercontent.com/MichaelDunaev/YM/master/YMapsML.xml').then(onGeoXmlLoad);
     // Обработчик загрузки XML-файлов.
     function onGeoXmlLoad (res) {
         myMap.geoObjects.add(res.geoObjects);
