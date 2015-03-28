@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ym:ymaps xmlns:ym="http://maps.yandex.ru/ymaps/1.x">
+  <Representation xmlns="http://maps.yandex.ru/representation/1.x" xmlns:gml="http://www.opengis.net/gml" xmlns:repr="http://maps.yandex.ru/representation/1.x">
+    <View>
+      <boundedBy xmlns="http://www.opengis.net/gml">
+        <Envelope>
+          <lowerCorner>37.470943 55.519859</lowerCorner>
+          <upperCorner>37.948274 55.786637</upperCorner>
+        </Envelope>
+      </boundedBy>
+    </View>
+    <Style gml:id="userobject">
+      <iconContentStyle>
+        <template>#placemark</template>
+      </iconContentStyle>
+      <balloonContentStyle>
+        <template>#balloon</template>
+      </balloonContentStyle>
+    </Style>
+    <Template gml:id="placemark">
+      <text>$[metaDataProperty.AnyMetaData.number]</text>
+    </Template>
+    <Template gml:id="balloon">
+      <text>&lt;div style="max-width:400px;*width:400px;"&gt;&lt;strong&gt;$[name]&lt;/strong&gt;&lt;div&gt;$[description]&lt;/div&gt;&lt;/div&gt;</text>
+    </Template>
+  </Representation>
+  <ym:GeoObjectCollection xmlns="http://www.opengis.net/gml">
+    <gml:name xmlns:gml="http://www.opengis.net/gml">"Круглые места"</gml:name>
+    <gml:description xmlns:gml="http://www.opengis.net/gml">Круглые места Москвы и Московской области.</gml:description>
+    <featureMembers>
+      <ym:GeoObject>
+        <metaDataProperty xmlns:gml="http://www.opengis.net/gml" xmlns:repr="http://maps.yandex.ru/representation/1.x">
+          <ym:AnyMetaData>
+            <ym:number>1</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Круглая железная дорога</name>
+        <Point>
+          <pos>37.549649 55.519859</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+      <ym:GeoObject>
+        <metaDataProperty xmlns:gml="http://www.opengis.net/gml" xmlns:repr="http://maps.yandex.ru/representation/1.x">
+          <ym:AnyMetaData>
+            <ym:number>2</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Круглый дом</name>
+        <Point>
+          <pos>37.470943 55.707184</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+      <ym:GeoObject>
+        <metaDataProperty xmlns:gml="http://www.opengis.net/gml" xmlns:repr="http://maps.yandex.ru/representation/1.x">
+          <ym:AnyMetaData>
+            <ym:number>3</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Круглый дом</name>
+        <Point>
+          <pos>37.513558 55.722548</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+      <ym:GeoObject>
+        <metaDataProperty xmlns:gml="http://www.opengis.net/gml" xmlns:repr="http://maps.yandex.ru/representation/1.x">
+          <ym:AnyMetaData>
+            <ym:number>4</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Круглый пруд</name>
+        <Point>
+          <pos>37.517946 55.709071</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+      <ym:GeoObject>
+        <metaDataProperty xmlns:gml="http://www.opengis.net/gml" xmlns:repr="http://maps.yandex.ru/representation/1.x">
+          <ym:AnyMetaData>
+            <ym:number>5</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Метро Университет</name>
+        <Point>
+          <pos>37.534779 55.691823</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+      <ym:GeoObject>
+        <metaDataProperty xmlns:gml="http://www.opengis.net/gml" xmlns:repr="http://maps.yandex.ru/representation/1.x">
+          <ym:AnyMetaData>
+            <ym:number>6</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Метро Университет</name>
+        <Point>
+          <pos>37.534532 55.693305</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+      <ym:GeoObject>
+        <metaDataProperty xmlns:gml="http://www.opengis.net/gml" xmlns:repr="http://maps.yandex.ru/representation/1.x">
+          <ym:AnyMetaData>
+            <ym:number>7</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Очистные сооружения</name>
+        <Point>
+          <pos>37.688615 55.664932</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+      <ym:GeoObject>
+        <metaDataProperty xmlns:gml="http://www.opengis.net/gml" xmlns:repr="http://maps.yandex.ru/representation/1.x">
+          <ym:AnyMetaData>
+            <ym:number>8</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Круг</name>
+        <Point>
+          <pos>37.622809 55.782994</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+      <ym:GeoObject>
+        <metaDataProperty xmlns:gml="http://www.opengis.net/gml" xmlns:repr="http://maps.yandex.ru/representation/1.x">
+          <ym:AnyMetaData>
+            <ym:number>9</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Очистные сооружения в Люберцах</name>
+        <Point>
+          <pos>37.948274 55.681952</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+      <ym:GeoObject>
+        <metaDataProperty xmlns:gml="http://www.opengis.net/gml" xmlns:repr="http://maps.yandex.ru/representation/1.x">
+          <ym:AnyMetaData>
+            <ym:number>10</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Очистные сооружения в Бутово</name>
+        <Point>
+          <pos>37.523541 55.524464</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+      <ym:GeoObject>
+        <metaDataProperty xmlns:gml="http://www.opengis.net/gml" xmlns:repr="http://maps.yandex.ru/representation/1.x">
+          <ym:AnyMetaData>
+            <ym:number>11</ym:number>
+          </ym:AnyMetaData>
+        </metaDataProperty>
+        <name>Красивое здание</name>
+        <Point>
+          <pos>37.539806 55.786637</pos>
+        </Point>
+        <ym:style>default#lightbluePoint</ym:style>
+      </ym:GeoObject>
+    </featureMembers>
+    <ym:style xmlns:gml="http://www.opengis.net/gml" xmlns:repr="http://maps.yandex.ru/representation/1.x">#userobject</ym:style>
+  </ym:GeoObjectCollection>
+</ym:ymaps>
