@@ -4,8 +4,8 @@
     <View>
       <boundedBy xmlns="http://www.opengis.net/gml">
         <Envelope>
-          <lowerCorner>37.470943 55.519859</lowerCorner>
-          <upperCorner>37.948274 55.786637</upperCorner>
+          <lowerCorner>73.41396 50.50741</lowerCorner>
+          <upperCorner>127.80251  56.77399</upperCorner>
         </Envelope>
       </boundedBy>
     </View>
